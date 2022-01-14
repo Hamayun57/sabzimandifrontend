@@ -1,0 +1,160 @@
+.logo1 {
+  width: 10%;
+  margin-left: 10rem;
+}
+.logo2 {
+  margin-left: -1rem;
+  margin-top: 1rem;
+  width: 7%;
+}
+.nav {
+  margin-left: 20rem;
+}
+.color {
+  color: black !important;
+  font-weight: bold;
+}
+.color1 {
+  color: black !important;
+  font-weight: bold;
+  margin-left: 0rem;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: tomato;
+  padding-left: 40px;
+}
+.place {
+  margin-left: 2rem;
+  border-radius: 2rem;
+  border: solid 1px;
+  border-color: tomato;
+  width: 100px;
+}
+.search1 {
+  margin-top: 0.8rem;
+  position: absolute;
+  margin-left: 22rem;
+  color: tomato;
+}
+#navbarScroll {
+  margin-left: 0rem;
+}
+
+@media (min-width: 2560px) {
+  .logo1 {
+    width: 10%;
+    margin-left: 20rem;
+  }
+  .logo2 {
+    margin-left: -1rem;
+    margin-top: 1rem;
+    width: 7%;
+  }
+  .nav {
+    margin-left: 40rem;
+    font-size: 30px;
+  }
+
+  .color1 {
+    margin-left: 1rem;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+
+    padding-left: 60px;
+  }
+  .place {
+    width: 200px;
+  }
+  .search1 {
+    margin-top: 1.2rem;
+
+    margin-left: 42rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .color1 {
+    margin-left: 1rem;
+  }
+  .search1 {
+    margin-left: 25rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo1 {
+    width: 10%;
+    margin-left: 5rem;
+  }
+  .logo2 {
+    margin-left: -1rem;
+    margin-top: 1rem;
+    width: 7%;
+  }
+  .nav {
+    margin-left: 10rem;
+  }
+
+  .color1 {
+    margin-left: 1rem;
+  }
+
+  .search1 {
+    margin-top: 0.8rem;
+
+    margin-left: 25rem;
+  }
+}
+@media (max-width: 768px) {
+  .logo1 {
+    width: 10%;
+    margin-left: 5rem;
+  }
+  .logo2 {
+    margin-left: -32rem;
+    margin-top: 1rem;
+    width: 7%;
+  }
+  .nav {
+    margin-left: 0rem;
+  }
+  .place {
+    margin-top: 0rem;
+    margin-left: 6rem;
+  }
+  #navbarScroll {
+    margin-left: 30rem;
+  }
+  .search1 {
+    margin-top: 10rem;
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 425px) {
+  .logo1 {
+    width: 30%;
+    margin-left: 2rem;
+  }
+  .logo2 {
+    margin-left: -10rem;
+    margin-top: 1rem;
+    width: 20%;
+  }
+  .nav {
+    margin-left: 0rem;
+  }
+  .place {
+    margin-top: 0rem;
+    margin-left: 4rem;
+  }
+  #navbarScroll {
+    margin-left: 13rem;
+  }
+  .search1 {
+    margin-top: 10rem;
+    margin-left: 5rem;
+  }
+}
